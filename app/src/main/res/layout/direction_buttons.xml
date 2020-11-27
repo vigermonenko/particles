@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    android:id="@+id/directionalButtons"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    >
+    <Button
+        android:id="@+id/TranslateLeftButton"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="left"
+        android:textSize="@dimen/buttonSmall"
+        >
+    </Button>
+    <Button
+        android:id="@+id/TranslateUpButton"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="Up"
+        android:textSize="@dimen/buttonSmall"            >
+    </Button>
+
+    <Button
+        android:id="@+id/TranslateDownButton"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="down"
+        android:textSize="@dimen/buttonSmall"            >
+    </Button>
+
+    <Button
+        android:id="@+id/TranslateRightButton"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="Right"
+        android:textSize="@dimen/buttonSmall"            >
+    </Button>
+</androidx.appcompat.widget.LinearLayoutCompat>
